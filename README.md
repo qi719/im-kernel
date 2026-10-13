@@ -1,5 +1,8 @@
 # im —— 一个硬核的 IM 内核原型
 
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm%20Noncommercial%201.0.0-blue.svg)](LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/repo-github.com/qi719/im--kernel-black.svg)](https://github.com/qi719/im-kernel)
+
 > 这是一个 **内核原型**，不是生产级 IM。组件不完善（没有认证/加密/群管理/断线重连），
 > 但内核设计思想偏极致性能：**io_uring 网络 IO + Chronicle Queue 消息日志 + MPSC 无锁队列解耦**。
 > 适合用来学习/压测"低延迟消息系统"的底层构造方式。
