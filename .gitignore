@@ -1,0 +1,46 @@
+# ===== 构建产物 =====
+target/
+build/
+out/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+dependency-reduced-pom.xml
+
+# ===== Maven =====
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== IDE: IntelliJ IDEA =====
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ===== IDE: Eclipse / STS =====
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ===== IDE: NetBeans =====
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===== IDE: VS Code =====
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== 临时/日志 =====
+*.log
+*.tmp
+.kotlin
